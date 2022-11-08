@@ -1,6 +1,6 @@
 public class evenDigits {
     public static void main(String[] args) {
-    int arr[] = {1,121,2243,67,9,221};
+    int arr[] = {1,121,2243,67,19,2121};
     int ans = findNumbers(arr);
         System.out.println(ans);
     }
