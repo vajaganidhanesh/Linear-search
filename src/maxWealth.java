@@ -1,9 +1,11 @@
 public class maxWealth {
     public static void main(String[] args) {
         int [][]arr = {{1,23,4},{2,1,3}};
+        int ans = maxiumWealth(arr);
+        System.out.println(ans);
 
     }
-    public int maxiumWealth(int[][] accounts){
+    static int maxiumWealth(int[][] accounts){
 
         int ans = Integer.MIN_VALUE;
         for (int person = 0; person < accounts.length; person++) {
