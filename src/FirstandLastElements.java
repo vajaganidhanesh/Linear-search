@@ -14,7 +14,10 @@ public class FirstandLastElements {
         int[] ans = {-1, -1};
 
         ans[0] = firstandlast(arr,target,true);
-        ans[1] = firstandlast(arr,target,false);
+        if(ans[1] != 0){
+            ans[1] = firstandlast(arr,target,false);
+        }
+
         return ans;
     }
 
